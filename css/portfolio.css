@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3E61A1;    
+    font-family: "Quicksand", sans-serif;
+    color: white;    
+    margin: 0;
+}
+
+nav {
+    background-color: #EFB06B;
+    color: #3E61A1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #3E61A1;
+    margin-left: 50px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    word-wrap: break-word;    
+}
+
+header img {
+    max-height: 400px;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.container {
+    text-align: center;
+    background-color: #C6D1E5;    
+    padding-block-start: 25px;
+}
+
+section {
+    padding-bottom: 10px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto 0;
+}
+
+section h2 {
+    font-size: 30px; 
+}
+
+.project-tile {
+    margin: 10px;
+    max-width: 250px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.project-tile:hover {
+    transform: scale(1.05);
+}
+
+.project-tile img {
+    width: 250px;
+    height: 250px;
+}
+
+ul {
+    align-items: center;
+    justify-content: center;
+    margin: 5px 10px;
+    padding-right: 55px;
+    
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+footer {
+    color: #3E61A1;
+    background-color: #EFB06B;
+    text-align: center;
+    font-weight: 750;
+    padding: 20px;
+}
+
+i {
+    color: black;
+}
+
+@media (max-width: 440px) {
+    section {
+        padding: 20px;
+    }   
+}
+
